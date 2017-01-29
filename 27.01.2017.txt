@@ -1,0 +1,16 @@
+Programming paradigms:
+1. Imperative programming - bu paradigmada gosteris setir-setir emrlerden ibaret olur. Declerative programming imperative-in eksine burada emrlerin verilmesinde bir meqsed olur. Imperative p-de hedef emrlerin dogru ve ardicil sekilde verilmesidir. Imperative ve declerative arasinda esas ferqler:
+1) Declerative emeliyyatin ne oldugu ile, imperative ise nece olacagi ile maraqlanir. 
+2) Declerative side effects-den uzaqdir, referential transparency declerative dilde oldugu halda imperative dilde yoxdu ve bu dilde side effects olur.
+3) Declerative dil riyazi mentiqe daha yaxindir.
+2. Functional programming - lambda hesablamalarina esaslanir. Bu dil de yan tesirlerden uzaqdir. Yeni functionun xaricindeki datalara guvenmir ve onlari deyisdirmir. 
+3. Logical programming - mentiqi hesablamalara, faktlara esaslanir. TheoremProvingSystem - faktlarin database-ni axtramaq ucun istifade olunur ve neyin dogru, neyin yalnis oldugunu mueyyenlesdirir. ClosedWorldAssumption - dogru olmayan her seyin yalnis oldugunu gosterir. Sonradan informasiya elave etmek olmur.
+4. OOP - Heytada he sey obyektdir. OOP hemin obyektlerin xususiyyetlerini koda cevirmek demekdir. OOP-u diger dillerden ferqli eden en boyuk xususiyyet inheritance-dir. OOP eyni isleri classlar icinde qruplasdirmaga imkan verir. Bu ozunu tekrarlamanin (DRY) qarsisini alir. DRY-in en boyuk faydasi eger proqraminizda her hansi deyisiklik olarsa, kodu yenilemek ucun bir deyisiklik etmek kifayetdir.  
+
+Object Oriented Programming
+1. Object and Class
+Sade sekilde desek, class - "certyoj" object ise classa esasen tikilen evdir. Bir classdan istifade ederek eyni formali lakin musteqil sonsuz sayda object yaradila biler.
+2. Inheritance - OOP-nin fikrimce en boyuk faydasi mehz inheritancedir. Bir obyekt bir obyekt sinifine aid bir misaldir. (Dersde dediyiniz insan misali) Eger bir class subclass yarada bilirse onun toreme(derivation) xususiyyeti var. Bu class superclass adlanir. Subclass superclassda olan xususiyyetleri alir ve bundan elave oz xususiyyetleri de ola biler. Bezen superclassda olan xususiyyetin hansininsa subclassa kecmesini istemirikse, hemin xususiyyeti private ede bilerik.
+3. Polymorphism - ferqli obyektlerin eyni hadiseye ferqli cur cavabverme qabiliyyetidir. Her class metodlari diger classlardan gizli oldugu ucun ferqli classlar eyni adda metoda sahib ola bilerler. 
+4. Abstraction - sadece elaqeli informasiyani gosteren ve istifadeciden obyektin lazimsiz(istifadeci ucun) xususiyyetlerini gizleyen prosesdir. Meselen telefonu goturek. Mesaj gondermek ucun hansi duymeye basmagi bilmek kifayetdir, duymeye basdiqda ne bas verir, mesajlar nece gonderilir ve s. bu kimi seyler istifadeci ucun abstract-dir.
+5. Encapsulation - data ve functionun bir classda birlesdirilmesi prosesidir. Encapsulationda data ile birbasa elaqe qurmaq mumkun deyil, class icindeki function vasitesile elaqe qurulur. Classin xususiyyetlei gizli(private) tutulur ve get and set ermleri ile idare olunur. Belelikle, encapsulation data gizleme anlayisini mumkun edir.
